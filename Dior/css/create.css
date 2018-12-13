@@ -1,0 +1,203 @@
+/* CSS Document */
+	body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+		margin:0;
+		padding:0;
+	}
+	body{
+		height: 100%;
+		font-family: "微软雅黑",Arial;
+		background-color:#fff;
+	}
+	ul,ol{
+		list-style:none;
+	}
+	img{
+		border: 0;
+	}
+	#Xinxi{
+		width: 801px;
+		height: 461px;
+		margin: 25px 0 0 25%;
+	}
+	.zhuce{
+		margin-left: 20px;
+	}
+	#tishi{
+		margin: 15px 0 0 22px;
+	}
+	#tishi span{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	#tishi h3{
+		font-size: 14px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+	#suoyou{
+		width: 691px;
+		height: 340px;
+		position: relative;
+		border-bottom: 1px solid black;
+	}
+	#Yanzheng{
+		/*display: flex;*/
+		margin-top: 7px;
+	}
+	#Yanzheng input{
+		width: 205px;
+		height: 30px;
+		border-radius: 8px;
+	}
+	
+	/*手机号,电子邮件地址*/
+	 #Yanzheng .yan{
+		display: inline-block;
+	}
+	.yan input{
+			margin-left: 35px;
+			margin-right: 16px;
+			background-color: #ebebeb
+		}
+		
+	/*验证码*/
+	#Yanzheng .yan01{
+		margin-top: 23px;
+		display: flex;
+	}
+	#Yanzheng .yan01 label{
+		line-height: 30px;
+	}
+	#Yanzheng .yan01 input{
+		width: 100px;
+		height: 30px;
+		margin-left: 39px;
+		background-color: #ebebeb;
+	}	
+	#Yanzheng .yan01 img{
+		width: 98px;
+		height: 34px;
+		margin-left: 8px;
+	}
+	
+	/*短信验证码*/
+	#Yanzheng .yan02 input{
+		width: 154px;
+		height: 30px;
+		margin-left: 7px;
+		background-color: #ebebeb;
+	}
+	.yan02{
+		display: flex;
+		margin-top: 23px;
+	}
+	#yan02-01{
+		width: 45px;
+		height: 34px;
+		margin-left: 9px;
+		text-align: center;
+		border-radius: 15px;
+		display: inline-block;
+		background-color: black
+	}
+	#yan02-01 a{
+		color: white;
+		line-height: 30px;
+	}
+	#yan02-01 a:hover{
+		font-weight: 600;
+	}
+	
+	/*性别*/
+	#sex{
+		display: flex;
+	}
+	#xiala{
+		display: inline-block;
+	}
+	#sex label{
+		line-height: 76px;
+	}
+	#sex select{
+		width: 212px;
+		height: 30px;
+		margin-top: 23px;
+		margin-left: 63px;
+		border-radius: 10px;
+		background-color: #ebebeb;
+	}
+	#yanzheng input:nth-child(5){
+		margin-left: 10px;
+	}
+	
+	/*出生日期*/
+	#birth{
+		display: flex;
+	}
+	#birth select{
+		margin-left: 10px;
+	}
+	#birth #sss{
+		margin-left: 15px;
+		margin-right: 63px;
+	}
+	#birth label{
+		display: inline-block;
+		margin-left: 0px;
+		margin-right: -11px;
+	}
+	#sex #birth  select{
+		width: 56px;
+		height: 30px;
+		background-color: #ebebeb;
+	}
+  	
+	/*密码*/
+	#yan input{
+		margin-left: 52px;
+		background-color: #ebebeb;
+	}
+	
+	/*阅读*/
+	#read{
+		display: flex;
+		margin-top:23px;
+		margin-left: 8px;
+	}
+	#read a{
+		color: #8a6363;
+		text-decoration: underline;
+	}
+	#read a:hover{
+		font-weight: 600;
+	}
+	#gouxuan{
+		width: 17px;
+		height: 17px;
+		border: 1px solid #bfbfbf;
+		background-color: white;
+	}
+	#Xiaoshi{
+		width: 16px;
+		height: 16px;
+		display: none;
+	}
+	
+	/*注册*/
+	#Zhuce{
+		width: 54px;
+		height: 28px;
+		right: 30px;
+		bottom: 2px;
+		border-radius: 12px;
+		position: absolute;
+		text-align: center;
+		background-color: black;
+	}
+	#Zhuce a{
+		color: white;
+		line-height: 28px;
+	}
+	#Zhuce a:hover{
+		font-weight: 600;
+	}

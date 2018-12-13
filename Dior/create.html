@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dior中国官网|用户注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/create.css"/>
+		<link rel="shortcut icon" href="bitbug_favicon.ico" />
+	</head>
+	<body>
+		<div id="all">	
+			<div id="wuwu">
+				<div id="information">
+					<a href="###" id="guan"><img src="img/xinxitiao.jpg"/></a>
+					<a href="###"><span>迪奥圣诞限量礼盒，倾世香氛，王牌彩妆，缤纷礼物饰以圣诞礼物包装，惊艳迷人这么圣诞。每满600元指定产品更享免费刻字，即刻探索。</span></a>
+				</div>
+				<div id="logo">
+					<a href="###"><img src="img/JianTou.jpg"/></a>
+					<a href="###"><span><img src="img/MaxLog.jpg"></span></a>
+				</div>
+			</div>
+			<div id="Xinxi">
+				<div class="zhuce"><h1>注册</h1></div>
+				<div id="tishi">
+					<span>如您已是Dior店铺，请使用会员手机号码注册，系统将自动绑定您的官网账号并合并您在官网和店铺的购物积分。</span>
+					<br />
+					<h3>*为必填项目</h3>
+					<div id="suoyou">	
+						<div id="Yanzheng">
+							<div class="yan">
+								
+								<!--手机号-->
+								<label>手机号 *</label>
+								<input type="text" name="phone" id="span01" placeholder="手机号" onblur="upperCase()"/>
+								<span id="userSpan"></span>
+							</div>
+							
+							<!--电子邮件地址-->
+							<div class="yan">
+								<label>电子邮件地址</label>
+								<input type="text" name="email" id="span02" placeholder="电子邮件地址"  onblur="Email()"/><br />
+								
+							</div>
+							
+							<!--验证码-->
+							<div class="yan01">
+								<label>验证码 *</label>
+								<input type="text" name="verification" id="span03" placeholder="验证码" />
+								<img src="img/duanxin.jpg"/>
+							</div>
+							
+							<!--短信验证码-->
+							<div class="yan02">
+								<label>短信验证码 *</label>
+								<input type="text" name="sms" class="span04" placeholder="短信验证码" />
+								<div id="yan02-01"><a href="###"><span>发送</span></a></div>
+							</div>
+							
+							<!--性别--> 
+							<div id="sex">
+								<label>性别</label>
+								<div id="xiala">
+									<select name="sexi">
+										<option selected="selected"></option>
+										<option value="01">男性</option>
+										<option value="02">女性</option>
+									</select>
+								</div>
+								
+							<!--出生日期-->
+							
+							<div id="birth">
+								<label id="sss">出生日期</label>
+									<form name=form1 action="" method="post">
+									<select name="myYear" onChange="YYYYDD(this.value)">
+										<option value="">——</option>
+									</select>
+									<label>年</label>
+										<select name="myMonth" onChange="MMDD(this.value)">
+										
+										<option value="">——</option>
+									</select>
+									<label>月</label>
+									
+									<select name="myDay">
+										<option value="">——</option>
+									</select>
+									<label>日</label>
+									</form>
+							</div>
+							</div>
+							
+							<!--密码-->
+							<div id="yan">
+								<label>密码*</label>
+								<input type="password" name="pass" id="span05" placeholder="密码"/>
+							</div
+						</div>
+					</div>
+					<div id="read">
+							<div id="gouxuan">
+								<img src="img/duihao.jpg" id="Xiaoshi"/>
+							</div>
+							<label>我已阅读并接受<a href="###">个人信息收集声明</a></label>
+					</div>
+					<div id="Zhuce">
+						<a href="###">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--地区-->
+			<div id="Diqu">
+				<div id="haha">
+					国家/地区
+				</div>
+				<div id="diqu">
+							<a href="javascript:"><img src="img/suozi.jpg"/>中国(CNY￥)<img src="img/jiantou1.jpg"/></a>
+					<div id="sel">
+						<ul id="select">
+							<li id="ming"><a href="javascript:"><img src="img/kongbai1.jpg" />Europe</a></li>	
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>Belgique(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>België(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>Deutschland(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>España(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>France(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>Italia(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>Nederland(EUR€)</a></li>
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>　Poccия</a></li>
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>　Switzerland</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>United Kingdom(UK£)</a></li>
+							<li id="ming"><a href="javascript:" ><img src="img/kongbai1.jpg" />North America</a></li>
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>United States(US$)</a></li>
+							<li id="ming"><a href="javascript:"><img src="img/kongbai1.jpg" />South America</a></li>
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>　Brasil</a></li>
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>　Latin America</a></li>							
+							<li id="ming"><a href="javascript:"><img src="img/kongbai1.jpg" />Asia-Oceania</a></li>	
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>中国(CNY￥)</a></li>	
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>香港</a></li>	
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>Hong Kong</a></li>	
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>日本(JPY￥)</a></li>	
+							<li><a href="javascript:"><img src="img/suozi.jpg"/>한국(KRW₩)</a></li>	
+							<li><a href="javascript:"><img src="img/kongbai.jpg"/>台灣</a></li>	
+							<li id="ming"><a href="javascript:"><img src="img/kongbai1.jpg" />International</a></li>	
+							<li><a href="javascript:"><img src="img/kongbai.jpg" />　International version</a></li>	
+						</ul>
+					</div>
+				</div>
+			
+		</div>
+		<div id="liebiao">
+			<ul>
+				<li><a href="javascript:">精品店</a></li>
+				<li><a href="javascript:">职业生涯</a></li>
+				<li><a href="javascript:">使用条款</a></li>
+				<li><a href="javascript:">数据保护章程</a></li>
+			</ul>
+			<div id="anquan">
+				<div class="anquan1">
+					<a href="javascript:"><img src="img/anquan01.jpg"/><p>泸公网安备31010602002343号</p></a>
+					<a href="javascript:"><img src="img/anquan02.jpg"/><p>泸ICP备10014525号</p></a>
+					<a href="javascript:"><p>路威酩轩香水化妆品(上海)有限公司</p></a>
+					<a href="javascript:"><p>上海市南京西路1266号恒隆广场1期29F</p></a>
+				</div>
+				
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="JS/tool.js" ></script>
+<script type="text/javascript">
+//	信息
+	$("#guan").onclick = function(){
+		$("#information").style.display = "none";
+	}
+	
+//	地区
+	$("#diqu").onclick = function(){
+		if($("#sel").style.display == "none"){
+			$("#sel").style.display = "block";	
+		}else{
+			$("#sel").style.display = "none";
+		}
+	}
+	
+//	对号消失
+	$("#gouxuan").onclick = function(){
+		if($("#Xiaoshi").style.display == "none"){
+			$("#Xiaoshi").style.display = "block";	
+		}else{
+			$("#Xiaoshi").style.display ="none";
+		}
+	}
+	
+//	创建年份
+	function YYYYMMDDstart(){
+   		MonHead = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+		var y = 2014;
+ 			for (var i = (y-30); i < (y+30); i++){
+ 				document.form1.myYear.options.add(new Option( i));
+ 			}
+			for (var i = 1; i < 13; i++){
+				document.form1.myMonth.options.add(new Option( i));		
+			}
+	}
+ 
+			if(document.attachEvent){ 
+				window.attachEvent("onload", YYYYMMDDstart);
+ 			}else{
+				window.addEventListener('load', YYYYMMDDstart, false);
+ 			}
+	function YYYYDD(str) {
+		//主要是判断闰平年)
+			var MMvalue = document.form1.myMonth.options[document.form1.myMonth.selectedIndex].value;
+			if (MMvalue == ""){ 
+				var e = document.form1.myDay; 
+				optionsClear(e); 
+				return;
+			}
+			var n = MonHead[MMvalue - 1]; 
+			if (MMvalue ==2 && IsPinYear(str)){
+				n++;
+				writeDay(n);
+ 		}
+	}
+	function MMDD(str){ 
+		//月发生变化时日期联动
+			var YYYYvalue = document.form1.myYear.options[document.form1.myYear.selectedIndex].value;
+			if (YYYYvalue == ""){ 
+				var e = document.form1.myDay; 
+				optionsClear(e); 
+				return;
+			}
+			var n = MonHead[str - 1];
+		if (str ==2 && IsPinYear(YYYYvalue))
+			n++;
+			writeDay(n);
+}
+ 
+	function writeDay(n){ 
+		//据条件写日期的下拉框
+		var e = document.form1.myDay; optionsClear(e);
+		for (var i=1; i <(n+1); i++){
+			e.options.add(new Option( i));
+		}
+ 
+	}
+	function IsPinYear(year){
+		//判断是否闰平年
+	 	return(0 == year%4 && (year%100 !=0 || year%400 == 0));
+	}
+	function optionsClear(e){ 
+		e.options.length = 1;
+ }
+		//注册
+		document.getElementById("Zhuce").onclick = function(){
+			//创建对象
+			let xhr = new XMLHttpRequest();
+			//设置请求参数
+			xhr.open("post","PHP/register.php",true);
+			//设置回调函数
+			xhr.onreadystatechange = function(){
+				//接收响应
+				if(xhr.readyState==4 && xhr.status==200){
+//					alert(xhr.responseText);
+					if(xhr.response==0){
+						window.location.href="register.html"
+					}else{
+						alert("请您重新注册！")
+					}
+					
+				}
+			}
+			//4.发送请求
+			xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+			let strs = "phone="+$("#span01").value+"&email="+$("#span02").value+"&pass="+$("#span05").value;
+			xhr.send(strs);
+		}
+		
+//	手机号验证
+	function upperCase(){
+        var iphone = document.getElementById('span01').value;
+        if(!(/^1[3,4,5,7,8]\d{9}$/.test(iphone))){ 
+            alert("手机号码有误，请重填");  
+            return false; 
+        } 
+   }
+//邮箱验证
+	function Email(){
+		var email = document.getElementById("span02").value;
+		if(!(/^\w+@(qq|163|126).(com|net|cn)$/.test(email))){
+			alert('请输入有效的邮箱！');
+			return false;
+		}
+	}
+</script>        
