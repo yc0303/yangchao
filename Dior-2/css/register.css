@@ -1,0 +1,288 @@
+	@charset "utf-8";
+	/* CSS Document */
+	body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+		margin:0;
+		padding:0;
+	}
+	body{
+		height: 100%;
+		font-family: "微软雅黑",Arial;
+		background-color:#fff;
+	}
+	ul,ol{
+		list-style:none;
+	}
+	img{
+		border: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	#all{
+		background-color: white;
+	}
+	#wuwu{
+		background-color:white;
+	}
+	#information{
+		height: 70px;
+		background-color: #f8e29e;
+		text-align: center;
+	}
+	#information a{
+		color: black;
+		vertical-align: middle;
+		line-height: 70px;
+		margin-right: 165px;
+	}
+	#information span{
+		margin-left: 72px;
+	}
+	
+	/*logo*/
+	#logo{
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#logo img{
+		height: 33px;
+	}
+	#logo a:first-child{
+		margin-left: 313px;
+	}
+	#logo a:last-child{
+		margin-right: 699px;
+	}
+	#rack{
+		width: 0;
+		height: 0;
+		border: 5px solid transparent;
+		border-left-color: black;
+	}
+	#dazi{
+		border-bottom: 1px solid black;
+	}
+	
+	/*信息*/
+	#xinxi{
+		width: 100%;
+		margin-top: 200px;
+	}
+	#xinxi h1{
+		margin-bottom: 20px;
+		margin-left: 437px;
+    	margin-top: -172px;
+	}
+	#dakuang{
+		position: relative;
+		width: 650px;
+		height: 423px;
+		background-color:white;
+		margin-left: 28%;
+		border: 1px solid black;
+	}
+	
+	/*左边*/
+	#left{
+		width: 310px;
+	}
+	#zhenhao{	
+		display: flex;
+	}
+	#zhenhao p{
+		padding-left:20px;
+		color: #a27676;
+		margin-top: 10px;
+	}
+	
+	/*提示信息*/
+	#left .alls{
+		width: 185px;
+		margin-left: 19px;
+		margin-bottom: -8px;
+    	margin-top: 6px;
+    	color: red;
+    	font-size: 14px;
+    	display: none;
+	}
+	
+	/*手机号*/
+	#phone input{
+		background-color: #ebebeb;
+		margin-top: 15px;
+		margin-left: 20px;	
+	}
+	#iphone{
+		font-size: 16px;
+		border-radius: 5px;
+		height: 30px;
+		width: 240px;
+	}
+	
+	/*验证码*/
+	#Auth{
+		display: flex;
+	}
+	#Auth input{
+		background-color: #ebebeb;
+		margin-top: 15px;
+		margin-left: 20px;
+		height: 30px;
+		width:150px;
+	}
+	#auth{
+		font-size: 16px;
+		border-radius: 5px;
+	}
+	#Auth a img{
+		margin-top: 18px;
+		margin-left: 10px;
+	}
+	
+	/*短信*/
+	#fasong{
+		width:80px;
+		height:30px;
+		color:white;
+		line-height:30px;
+		text-align:center;
+		border-radius:20px;
+		background-color:black;
+    	margin: 18px 0 0 10px;
+	}
+	
+	/*阅读*/
+	#read{
+		width: 240px;
+		display: flex;
+		margin-top: 13px;
+		margin-left: 20px;
+	}
+	#Xiaoshi{
+		width: 16px;
+		height: 16px;
+		display: none;
+	}
+	#read label{
+		font-size: 14px;
+		padding-left: 8px
+	}
+	#read a{
+		color:grey;
+		font-size: 14px;
+	}
+	#read a:hover{
+		font-weight: 600;
+	}
+	#gouxuan{
+		width: 17px;
+		height: 17px;
+		border: 1px solid #bfbfbf;
+		background-color: white
+	}
+	
+	/*登录*/
+	#Deng{
+		width:244px;
+		height: 30px;
+		background-color: black;
+		border-radius: 10px;
+	    margin-top: 15px;
+    	margin-left: 17px;
+    	text-align: center;
+	}
+	#Deng a{
+		line-height: 30px;
+		color: white;
+	}
+	#Deng a:hover{
+		font-weight: 600;
+	}
+	
+	/*登录方式*/
+	#else{
+		clear: both;
+		margin-top: 20px;
+    	margin-left: 15px;
+	}
+	#else span{
+		color: #a0a0a0;
+	}
+	#else img{
+		margin: 0 -1px -4px 2px;
+	}
+	
+	/*右边*/
+	#right{
+		left: 307px;
+    	top: 42px;
+		width: 309px;
+		height: 200px;
+		position: absolute;
+		background-color: white;
+		border-left:3px solid #d4d4d4;
+	}
+	#right-top{
+		margin-top: -31px;
+    	margin-left: 37px;
+	}
+	#right-top span{
+		color:#636363 ;
+	}
+	
+	#right-center{
+	padding-top: 46px;
+    padding-left: 37px;
+	}
+	#right-center span{
+		color:#636363;
+	}
+	
+	#right-bottom{
+		width:210px;
+		height: 30px;
+		margin-left: 37px;
+    	margin-top: 65px;
+		border-radius: 10px;
+		text-align: center;
+		background-color: black;
+	}
+	#right-bottom a{
+		color: white;
+		line-height: 30px;
+	}
+	
+	/*警示*/
+	#hint{
+		margin-top:20px;
+		text-align:center;
+		margin-bottom:40px;
+	}
+	#hint span{
+		color: #5e5e5e;
+	}
+	#Diqu{
+		margin-left: 40%;
+	}
+	#haha{
+	   	margin-left: 117px;
+   		margin-bottom: 20px;
+    	margin-top: 15px;
+	}
+	/*列表*/
+	#liebiao ul{
+    	display: flex;
+   		flex-direction: column;
+    	align-items: center;
+    	margin-left: 13px;
+		margin-left: -200px;
+	}
+	#sel{
+		position: absolute;
+    	z-index: 1;
+	}
+	#liebiao .anquan1{
+		margin-left: -171px;
+		margin-bottom: 60px;
+	}

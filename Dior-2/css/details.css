@@ -1,0 +1,281 @@
+	html,body,h1,h2,h3,h4,h5,h6,form,input,table,tr,td,li,ul{
+				margin:0;
+				padding:0;
+				}
+				body{
+					position: relative;
+				}	
+				a{
+					text-decoration: none;
+				}
+	#Goods{
+		top: 100px;
+		width: 1519px;
+		height: 2400px;
+		margin-left: 7px;
+		position: relative;
+		text-align: center;
+		background-color: white;
+	}		
+	#introduce{
+		height: 138px;
+		width: 1519px;
+		font-size: 24px;
+		position: absolute;
+		background-color: white;
+		border-top:1px solid black;
+	}
+	#introduce span{
+		line-height: 60px;
+	}
+	#introduce p{
+		margin: 0;
+		font-size: 16px;
+	}
+
+	/*选项栏*/
+	#options{
+		top: 139px;
+		left: 38px;
+		height: 53px;
+		width: 1435px;
+		display: flex;
+		position: absolute;
+		background-color: white;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	#ling{
+		width: 140px;
+		height: 53px;
+		display: flex;
+		align-items: center;
+		background-color: white;
+		border-right:1px solid  black ;
+	}
+	#ling img{
+		width: 30px;
+		height: 30px;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+	#ling a{
+		color: black;
+		line-height: 53px;
+	}
+	#er{
+		width: 101px;
+		height: 53px;
+		display: flex;
+		overflow: hidden;
+		z-index: 1;
+		align-items: center;
+		background-color: white;
+		border-right: 1px solid black;
+	}
+	#er a{
+		color: black;
+		font-size: 17px;
+		margin-left: 25px;
+	}
+	#CNM{
+		width: 0;
+	    height: 0;
+	    border-left: 8px solid transparent;
+	    border-right: 8px solid transparent;
+	    border-top: 10px solid black;
+	}
+	#haiyou{
+		top: 53px;
+		width: 101px;
+		height: 128px;
+		display: none;
+		text-align: center;
+		position: absolute;
+		background-color: white;
+	}
+	#haiyou input{
+		margin-right: 10px;
+	}
+	#haiyou label{
+		display: block;
+		margin-top: 16px;
+	}
+	#shide{
+		top: 54px;
+		width: 101px;
+		height: 240px;
+		display: none;
+		text-align: center;
+		position: absolute;
+		background-color: white;
+	}
+	#shide input{
+		margin-right: 10px;
+	}
+	#shide label{
+		display: block;
+		margin-top: 16px;
+	}
+	#CNMD{
+		width: 0;
+	    height: 0;
+	    border-left: 8px solid transparent;
+	    border-right: 8px solid transparent;
+	    border-top: 10px solid black;
+	}
+	#qunide{
+		top: 54px;
+		width: 101px;
+		height: 50px;
+		display: none;
+		text-align: center;
+		position: absolute;
+		background-color: white;
+	}
+	#qunide input{
+		margin-right: 10px;
+	}
+	#qunide label{
+		display: block;
+		margin-top: 16px;
+	}
+	#CNMDA{
+		width: 0;
+	    height: 0;
+	    border-left: 8px solid transparent;
+	    border-right: 8px solid transparent;
+	    border-top: 10px solid black;
+	}
+	
+	#san{
+		width: 139px;
+		height: 53px;
+		display: flex;
+		align-items: center;
+		border-right: 1px solid black;
+		background-color: white;
+	}
+	#san input{
+		margin-left: 25px;
+		margin-right: 5px;
+	}
+	#san .dan{
+		width: 25px;
+		height: 25px;
+	}
+	#san span{
+		align-items: center;
+	}
+	
+	/*右边*/
+	#Right{
+		right: 8px;
+		width: 75px;
+		height: 53px;
+		position: absolute;
+		background-color:white;
+	}
+	#Right img{
+		padding-top: 14px;
+	}
+	
+	/*商品列表*/
+	#Zhong{
+		top:220px;
+		left: 38px;
+		width:1435px;
+		display: flex;
+		height: 1565px;
+		flex-wrap: wrap;
+		position: absolute;
+		background-color: white;
+		border-bottom:1px solid black;
+		justify-content: space-between;
+	}
+	#zhong img{
+		z-index: 0;
+	}
+	#zhaopian1{
+		width: 454px;
+		height: 741px;
+		position: relative;
+		background-color:white;
+	}
+	#zhaopian1 P{
+		left: 0;
+		margin: 0;
+		color: #8b809f;
+		position: absolute;
+		display: inline-block;
+	}
+	#zhaopian1 span{
+		left: 0;
+		padding-top:25px;
+		position: absolute;
+	}
+	#Naonao{
+		width: 454px;
+		height: 578px;
+		border: 1px solid gray;
+		position: relative;
+	}
+	#Naonao img:nth-child(2){
+		width: 325px;
+		height: 40px;
+		margin-top: 35px;
+	}
+	#neizhi{
+		width: 382px;
+		height: 60px;
+		margin-left: 37px;
+		background-color: white;
+	}
+	#gengduo{
+		width:126px;
+		height: 45px;
+		margin-top:50px;
+		margin-left:160px;
+		border-radius:20px;
+		text-align: center;
+		background-color:white;
+		border: 1px solid black;
+	}
+	#gengduo a{
+		color: black;
+		line-height: 45px;
+	}
+	#gengduo a:hover{
+		font-weight: 600;
+	}
+	#Naonaoq{
+		position: relative;
+	}
+	#Naonaoq P{
+		left: 0;
+		margin: 0;
+		color: #8b809f;
+		position: absolute;
+		display: inline-block;
+	}
+	#Naonaoq span{
+		left: 0;
+		padding-top: 25px;
+		position: absolute;
+	}
+	
+	/*视频*/
+	#shipin{
+		left:38px;
+		bottom:50px;
+		width:1435px;
+		height: 564px;
+		text-align:center;
+		position: absolute;
+		background-color: white;
+	}
+	#shipin video{
+		top: 35px;
+		left: 155px;
+		position: absolute;
+	}
